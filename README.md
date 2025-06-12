@@ -57,24 +57,24 @@ A 4-page sweet shop website with Home, About, Menu, and Contact pages.
 The system will generate Blade templates, Tailwind CSS, and JavaScript interactivity automatically.
 
 📁 Directory Structure
-pgsql
-Copy
-Edit
-resources/
-├── views/
-│   ├── layouts/
-│   ├── partials/
-│   ├── pages/
-│   └── chat.blade.php
-routes/
-├── web.php
-app/
-├── Http/
-│   ├── Controllers/
-│   │   └── ChatController.php
-storage/
-├── app/
-│   └── generated/{project_id}/
+
+    resources/
+    ├── views/
+    │   ├── layouts/
+    │   ├── partials/
+    │   ├── pages/
+    │   └── chat.blade.php
+    routes/
+    ├── web.php
+    app/
+    ├── Http/
+    │   ├── Controllers/
+    │   │   └── ChatController.php
+    storage/
+    ├── app/
+    │   └── generated/{project_id}/
+
+
 📦 Tech Stack
 Laravel 11
 
@@ -88,8 +88,10 @@ JavaScript (vanilla)
 
 Blade templating
 
+
 🔐 Authentication
 Authentication is handled using Laravel Breeze with Sanctum. Register/login is required before accessing the AI generator.
+
 
 🧠 Prompt Format Tips
 Use natural language or describe your website like:
